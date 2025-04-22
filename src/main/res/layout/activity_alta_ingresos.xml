@@ -1,0 +1,64 @@
+<!-- res/layout/activity_alta_ingresos.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    style="@style/RootStyle">
+
+
+
+    <EditText
+        android:id="@+id/txtMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/txtNroDeCuotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad de cuotas"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor" />
+
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la fecha" />
+
+    <TextView
+        android:id="@+id/txtFechaSeleccionada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnAgregarIngreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar ingreso"
+        style="@style/ButtonStyle"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

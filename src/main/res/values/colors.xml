@@ -1,0 +1,29 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="normalColor">#ffb6c1</color>
+    <color name="hoverColor">#ff69b4</color>
+    <color name="pressedColor">#ff1493</color>
+    <!--<color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color> -->
+    <color name="purple_500">#9c27b0</color>
+    <color name="purple_700">#7b1fa2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="purple_200">#BB86FC</color>
+
+        <color name="colorPrimary">#7E57C2</color> <!-- Púrpura oscuro -->
+        <color name="colorPrimaryDark">#5E35B1</color> <!-- Púrpura aún más oscuro -->
+        <color name="colorAccent">#FF4081</color>
+        <color name="colorBackground">#FAFAFA</color>
+        <color name="textColorPrimary">#212121</color>
+        <color name="textColorSecondary">#757575</color>
+
+
+
+
+</resources>
+
+

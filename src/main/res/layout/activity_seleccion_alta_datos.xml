@@ -1,0 +1,35 @@
+<!-- res/layout/activity_seleccion_alta_datos.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/RootStyle"
+    android:padding="50dp">
+
+
+    <Button
+        android:id="@+id/btnAgregarIngreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar ingreso"
+        style="@style/ButtonStyle"
+        android:background="@drawable/button_background" />
+
+    <Button
+        android:id="@+id/btnAgregarGasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar gasto"
+        style="@style/ButtonStyle"
+        android:background="@drawable/button_background" />
+
+    <Button
+        android:id="@+id/btnEditarRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar registro"
+        style="@style/ButtonStyle"
+        android:background="@drawable/button_background" />
+</LinearLayout>

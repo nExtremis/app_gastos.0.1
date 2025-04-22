@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.misgastos">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Actividad de Inicio de Sesión -->
+        <activity android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FinanzasActivity" />
+
+        <activity android:name=".AltaGastosActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".AltaIngresosActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".ConsultasActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".EditarRegistroActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".EditViewActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".SeleccionAltaDatosActivity"
+            android:label="@string/app_name"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Mis Gastos</string>
+    <string name="seleccione_un_mes">Seleccione un mes</string>
+    <string name="seleccione_un_filtro">Seleccione un filtro</string>
+    <string name="seleccione_un_tipo">Seleccione un filtro</string>
+    <string name="google_logo">Google Logo</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="btn_consultas">Consultas</string>
+    <string name="btn_alta_datos">Alta de Datos</string>
+    <string name="btn_sign_out">Cerrar Sesión</string>
+    <string name="bienvenido_a_finanzas">Bienvenido a Finanzas</string>
+    <string name="seleccionar_fecha">Seleccionar Fecha</string>
+    <string name="fecha_seleccionada">Fecha seleccionada</string>
+    <string name="mostrar_registros">Mostrar Registros</string>
+    <string name="ver_ingresos">Ver Ingresos</string>
+    <string name="ver_gastos">Ver Gastos</string>
+    <string name="ver_balance">Ver Balance</string>
+    <string name="monto">Monto</string>
+    <string name="descripcion">Descripción</string>
+    <string name="agregar_gasto">Agregar Gasto</string>
+    <string name="agregar_ingreso">Agregar Ingreso</string>
+    <string name="acc_denegado">Acceso denegado. Contacta al administrador.</string>
+    <string name="default_web_client_id">380835450776-ko270kv16lt8g0v3fk8543j6chv4i5kq.apps.googleusercontent.com</string>
+
+    <string-array name="meses_array">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="filtros_array">
+        <item>Fecha</item>
+        <item>Monto</item>
+        <item>Tipo</item>
+    </string-array>
+    <string-array name="tipos_array_consulta">
+        <item>Todos los tipos</item>
+        <item>efectivo</item>
+        <item>Tarjeta</item>
+        <item>Cuotas</item>
+    </string-array>
+    <string-array name="tipos_array_edit">
+        <item>efectivo</item>
+        <item>Tarjeta</item>
+        <item>Cuotas</item>
+    </string-array>
+</resources>
+

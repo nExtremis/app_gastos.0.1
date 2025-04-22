@@ -1,0 +1,75 @@
+<!-- res/layout/activity_editar_registro.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    style="@style/RootStyle">
+
+
+    <EditText
+        android:id="@+id/txtMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor" />
+    <com.example.misgastos.SpinnerView
+        android:id="@+id/spinnerTipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/seleccione_un_tipo"
+        android:textSize="14sp"
+        android:padding="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/txtNroDeCuotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad de cuotas"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor"
+        android:layout_marginTop="16dp"
+        android:enabled="false"/>
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor" />
+
+    <EditText
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seleccione la fecha"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cambios"
+        style="@style/ButtonStyle"
+        android:background="@drawable/button_background" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:textColor="#FFFFFF"
+        android:background="#ff4444"
+        android:padding="10dp"
+        android:layout_margin="5dp" />
+</LinearLayout>

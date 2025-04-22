@@ -1,0 +1,38 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado normal -->
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="#7E57C2" /> <!-- Tono púrpura oscuro -->
+            <corners android:radius="8dp" />
+            <padding
+                android:left="16dp"
+                android:top="8dp"
+                android:right="16dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+    <!-- Estado presionado -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#5E35B1" /> <!-- Tono púrpura aún más oscuro para cuando se presiona -->
+            <corners android:radius="8dp" />
+            <padding
+                android:left="16dp"
+                android:top="8dp"
+                android:right="16dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+    <!-- Estado deshabilitado -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#D1C4E9" /> <!-- Tono púrpura claro para estado deshabilitado -->
+            <corners android:radius="8dp" />
+            <padding
+                android:left="16dp"
+                android:top="8dp"
+                android:right="16dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+</selector>

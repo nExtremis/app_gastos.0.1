@@ -1,0 +1,57 @@
+<resources>
+    <!-- Definición del tema de la aplicación -->
+
+
+    <!-- Tema de la aplicación -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Estilo de la barra de acción -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Fuente y otros atributos -->
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <!-- Estilo personalizado para la barra de acción -->
+    <style name="MyActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- Estilo personalizado para el texto del título de la barra de acción -->
+    <style name="MyActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+    <!-- Estilos para el layout root -->
+    <style name="RootStyle">
+        <item name="android:background">#d9cde6</item>
+    </style>
+
+    <!-- Estilos para botones y combo-box -->
+    <style name="ButtonStyle">
+        <item name="android:background">#ffb6c1</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:backgroundTintMode">src_in</item>
+    </style>
+
+    <!-- Estilo para hover y pressed (se necesita definir en drawables) -->
+    <!-- drawable/button_background.xml -->
+    <style name="ButtonStyleHovered">
+        <item name="android:background">#ff69b4</item>
+    </style>
+
+    <style name="ButtonStylePressed">
+        <item name="android:background">#ff1493</item>
+    </style>
+</resources>

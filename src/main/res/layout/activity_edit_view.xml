@@ -1,0 +1,41 @@
+<!-- res/layout/activity_edit_view.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    style="@style/RootStyle">
+
+
+
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha" />
+    <EditText
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seleccione la fecha"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/normalColor" />
+
+    <Button
+        android:id="@+id/btnMostrarRegistros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Registros"
+        style="@style/ButtonStyle"
+        android:background="@drawable/button_background" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp" />
+
+</LinearLayout>

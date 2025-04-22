@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+
+
+    <Button
+        android:id="@+id/btnConsultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultas"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnAltaDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alta de Datos"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="16dp"/>
+
+
+
+</LinearLayout>

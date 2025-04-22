@@ -1,0 +1,80 @@
+<!-- res/layout/activity_consultas.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    style="@style/RootStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <com.example.misgastos.SpinnerView
+        android:id="@+id/comboMeses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:prompt="@string/seleccione_un_mes"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnVerIngresos"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Ver Ingresos" />
+
+    <Button
+        android:id="@+id/btnVerGastos"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Ver Gastos" />
+
+    <Button
+        android:id="@+id/btnVerBalance"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Ver Balance" />
+
+    <com.example.misgastos.SpinnerView
+        android:id="@+id/comboFiltros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:enabled="false"
+        android:padding="10dp"
+        android:prompt="@string/seleccione_un_tipo"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1C4E9"
+        android:padding="10dp"
+        android:text=""
+        android:textSize="14sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewConsultasGastos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#D1C4E9"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewConsultasIngresos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#D1C4E9"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>
