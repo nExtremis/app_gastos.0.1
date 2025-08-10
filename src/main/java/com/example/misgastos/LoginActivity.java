@@ -97,7 +97,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     private void checkIfUserIsAllowed(FirebaseUser user) {
-        List<String> allowedEmails = Arrays.asList("carlaaleferren@gmail.com", "herrera.gonzalo1994@gmail.com");
+        List<String> allowedEmails = Arrays.asList("example1|@gmail.com", "example2@gmail.com");
 
         if (allowedEmails.contains(user.getEmail())) {
             // Usuario permitido, continuar a la siguiente actividad
