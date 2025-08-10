@@ -21,7 +21,7 @@
     <string name="agregar_gasto">Agregar Gasto</string>
     <string name="agregar_ingreso">Agregar Ingreso</string>
     <string name="acc_denegado">Acceso denegado. Contacta al administrador.</string>
-    <string name="default_web_client_id">380835450776-ko270kv16lt8g0v3fk8543j6chv4i5kq.apps.googleusercontent.com</string>
+    <string name="default_web_client_id"></string>
 
     <string-array name="meses_array">
         <item>Enero</item>
